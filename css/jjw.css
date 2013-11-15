@@ -688,6 +688,72 @@ a:focus {
 .impress-enabled          { pointer-events: none }
 .impress-enabled #impress { pointer-events: auto }
 
+
+/*trying to make it work for mobile...*/
+
+@media only screen and (max-device-width: 480px) {
+    #title {
+        padding: 0;
+    }
+
+    #title .try {
+        font-size: 64px;
+        position: absolute;
+        top: -1em;
+        left: 1.5em;
+
+    }
+
+    #title h1 {
+        font-size: 120px;
+        position: relative;
+        top: 1.5em;
+
+    }
+
+    #title .footnote {
+        font-size: 32px;
+        position: absolute;
+        left: 15em;
+        top: 11em;
+    }
+
+    /* circular image */
+
+    #title .circular {
+        width: 500px;
+        height: 500px;
+        border-radius: 150px;
+        -webkit-border-radius: 300px;
+        -moz-border-radius: 300px;
+        background: url('jjw.jpg') no-repeat;
+        position: absolute;
+        left: 3.5em;
+        bottom: -0.6em;
+        }
+
+
+    #its {
+        position: absolute;
+        top: 10em;
+    }
+
+        #its .goblue {
+        width: 300px;
+        height: 300px;
+        background: url('michigan_new.png') no-repeat;
+        position: absolute;
+        left: 16em;
+        bottom: 5.2em;
+    }
+
+
+
+}
+
+
+
+
 /*
     There is one funny thing I just realized.
 
