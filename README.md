@@ -1,4 +1,0 @@
-Personal
-========
-
-My Personal Site
