@@ -263,7 +263,8 @@ a:focus {
     border-radius: 150px;
     -webkit-border-radius: 300px;
     -moz-border-radius: 300px;
-    background: url('jjw.jpg') no-repeat;
+    background: url('JDUB.jpg') repeat;
+    background-position: -40px -40px;
     position: absolute;
     left: 3.5em;
     bottom: -0.6em;
