@@ -223,15 +223,15 @@ a:focus {
     }
 
     #title .try {
-        font-size: 64px;
+        font-size: 24px;
         position: absolute;
-        top: 1em;
+        top: 3em;
         left: 1.5em;
 
     }
 
     #title h1 {
-        font-size: 120px;
+        font-size: 40px;
         position: relative;
         top: 1.5em;
 
@@ -244,8 +244,8 @@ a:focus {
     /* circular image */
 
     #title .circular {
-        width: 500px;
-        height: 500px;
+        width: 200px;
+        height: 200px;
         border-radius: 150px;
         -webkit-border-radius: 300px;
         -moz-border-radius: 300px;
@@ -262,8 +262,8 @@ a:focus {
     }
 
         #its .goblue {
-        width: 300px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
         background: url('michigan_new.png') no-repeat;
         position: absolute;
         left: 16em;
