@@ -238,10 +238,7 @@ a:focus {
     }
 
     #title .footnote {
-        font-size: 32px;
-        position: absolute;
-        left: 15em;
-        top: 11em;
+        display: none;
     }
 
     /* circular image */
